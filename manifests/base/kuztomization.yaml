@@ -1,0 +1,8 @@
+resources:
+  - namespace.yaml
+  - deployment.yml
+  - service.yml
+images:
+  - name: dingipacr.azurecr.io/hello-world
+    newTag: latest
+namespace: hello-world-dev
